@@ -39,6 +39,7 @@ en:
   api:
     local: "Your location"
     search: "Search"
+    search_map: "Search on Map"
     holder: "Enter address here"
   address:
     add_image: Add Images

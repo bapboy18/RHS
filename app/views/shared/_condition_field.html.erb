@@ -12,9 +12,9 @@
         <%= f.collection_select :price_lteq, Settings.prices, :last, :first, {include_blank: t("search.maxmum")}, {class: "form-control", id: "max_price"} %>
       </div>
       <div class="col-sm-3">
-        <%= f.label :facility %>
-        <%= f.collection_select :facility_gteq, Settings.facilities, :last, :last, {include_blank: t("search.minmum")}, {class: "form-control", id: "min_facility"} %>
-        <%= f.collection_select :facility_lteq, Settings.facilities, :last, :last, {include_blank: t("search.maxmum")}, {class: "form-control", id: "max_facility"} %>
+        <%#= f.label :facility %>
+        <%#= f.collection_select :facility_gteq, Settings.facilities, :last, :last, {include_blank: t("search.minmum")}, {class: "form-control", id: "min_facility"} %>
+        <%#= f.collection_select :facility_lteq, Settings.facilities, :last, :last, {include_blank: t("search.maxmum")}, {class: "form-control", id: "max_facility"} %>
       </div>
       <div class="col-sm-3">
         <%= f.label :region_province %>
