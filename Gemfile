@@ -53,4 +53,6 @@ end
 
 group :production do
   gem "unicorn"
+  gem "pg"
+  gem "rails_12factor", "0.0.2"
 end
